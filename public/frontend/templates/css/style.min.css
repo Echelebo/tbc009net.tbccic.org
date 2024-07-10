@@ -413,7 +413,7 @@ body.dark .path-cayan {
 }
 
 .btn-primary, body.dark .learn-btn {
-    background-color: #635bfe !important
+    background-color: #3e9743 !important
 }
 
 .dark .bg-pattern {
@@ -422,8 +422,9 @@ body.dark .path-cayan {
 
 .dark .input-form-control {
     color: #cdccd0 !important;
-    border: 1px solid #3f405b !important;
-    background-color: #2e2f44 !important
+    border: 1px solid #e5e4e596 !important;
+    background-color: #e5e4e5 !important;
+    border-radius: 2%;
 }
 
 body.dark .btn:hover {

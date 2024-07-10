@@ -580,8 +580,8 @@ body.dark .privacy-left-box {
 }
 
 .dark input[type=tel] {
-    background-color: #2e2f44 !important;
-    border-color: #2e2f44 !important
+    background-color: #E5E4E5 !important;
+    border-color: #c0b6c0 !important
 }
 
 .dark input[type=tel]:hover, .input-form-control:hover, input[type=tel]:hover {
@@ -649,8 +649,8 @@ body.dark .btn-light, body.dark .btn-light:hover {
 }
 
 .dark .form-check-input {
-    background: #2e2f44;
-    border: 1px solid #3f405b
+    background: #E5E4E5;
+    border: 1px solid #8f909c
 }
 
 body.dark .resend-code.btn:hover {

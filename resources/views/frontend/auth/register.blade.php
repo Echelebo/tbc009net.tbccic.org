@@ -15,17 +15,17 @@
                         <div class="bg-content">
 
                             <!-- <div class="transaction-block">
-                                                    <div class="transaction-text">
-                                                        <h3 class="mb-6p">{{ __('Hassle free money') }}</h3>
-                                                        <h1 class="mb-2p">{{ __('Transactions') }}</h1>
-                                                        <h2>{{ __('Right at you fingertips') }}</h2>
+                                                        <div class="transaction-text">
+                                                            <h3 class="mb-6p">{{ __('Hassle free money') }}</h3>
+                                                            <h1 class="mb-2p">{{ __('Transactions') }}</h1>
+                                                            <h2>{{ __('Right at you fingertips') }}</h2>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                               <!-- <div class="transaction-image">
-                                                    <div class="static-image">
-                                                        <img class="img img-fluid" src="{{ asset('public/frontend/templates/images/login/signup-static-img.svg') }}">
-                                                    </div>
-                                                </div>-->
+                                                   <!-- <div class="transaction-image">
+                                                        <div class="static-image">
+                                                            <img class="img img-fluid" src="{{ asset('public/frontend/templates/images/login/signup-static-img.svg') }}">
+                                                        </div>
+                                                    </div>-->
                         </div>
                     </div>
                 </div>
@@ -71,16 +71,16 @@
                                         </div>
                                     </div>
                                     <!-- <div class="col-6">
-                                                            <div class="form-group mb-3">
-                                                                <label class="form-label">{{ __('Last Name') }} <span class="star">*</span></label>
-                                                                <input type="text" class="form-control input-form-control" id="last_name" name="last_name" value="{{ old('last_name') }}"
-                                                                required data-value-missing="{{ __('This field is required.') }}"
-                                                                maxlength="30" data-max-length="{{ __(':x length should be maximum :y charcters.', ['x' => __('Last name'), 'y' => __('30')]) }}">
-                                                                @error('last_name')
+                                                                <div class="form-group mb-3">
+                                                                    <label class="form-label">{{ __('Last Name') }} <span class="star">*</span></label>
+                                                                    <input type="text" class="form-control input-form-control" id="last_name" name="last_name" value="{{ old('last_name') }}"
+                                                                    required data-value-missing="{{ __('This field is required.') }}"
+                                                                    maxlength="30" data-max-length="{{ __(':x length should be maximum :y charcters.', ['x' => __('Last name'), 'y' => __('30')]) }}">
+                                                                    @error('last_name')
         <span class="error"> {{ $message }} </span>
     @enderror
-                                                            </div>
-                                                        </div>-->
+                                                                </div>
+                                                            </div>-->
                                     <div class="col-10">
                                         <div class="form-group mb-3">
                                             <input type="email" class="form-control input-form-control" id="email"
@@ -95,11 +95,11 @@
                                             <span id="email_ok" class="text-success"></span>
                                         </div>
                                         <!--<div class="form-group mb-3">
-                                                                <label class="form-label">{{ __('Phone') }}</label>
-                                                                <input type="tel" class="form-control" id="phone" name="phone">
-                                                                <span id="duplicate-phone-error"></span>
-                                                                <span id="tel-error"></span>
-                                                            </div>-->
+                                                                    <label class="form-label">{{ __('Phone') }}</label>
+                                                                    <input type="tel" class="form-control" id="phone" name="phone">
+                                                                    <span id="duplicate-phone-error"></span>
+                                                                    <span id="tel-error"></span>
+                                                                </div>-->
                                         <div class="form-group mb-3">
 
                                             <div id="password-div" class="position-relative">

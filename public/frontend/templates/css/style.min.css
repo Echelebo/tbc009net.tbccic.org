@@ -428,8 +428,8 @@ body.dark .path-cayan {
 }
 
 body.dark .btn:hover {
-    color: #3f405b !important;
-    background: #ffaf30 !important
+    color: #f8f8f8 !important;
+    background: #24212d !important
 }
 
 .bg-ligt-pink, .gray-shad, .third-section {
@@ -654,7 +654,7 @@ body.dark .btn-light, body.dark .btn-light:hover {
 }
 
 body.dark .resend-code.btn:hover {
-    color: #ffaf30 !important;
+    color: #24212d !important;
     background-color: transparent !important
 }
 
@@ -1759,7 +1759,7 @@ body.dark .not-focus-bg {
 
 .btn:hover {
     color: #fff !important;
-    background: #392f6b !important
+    background: #24212d !important
 }
 
 .btn:hover svg {

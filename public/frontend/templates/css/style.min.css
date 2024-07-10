@@ -560,9 +560,9 @@ body.dark .privacy-left-box {
 }
 
 .dark .iti .form-control {
-    background-color: #2e2f44 !important;
-    color: #cdccd0 !important;
-    border: 1px solid #3f405b !important
+    background-color: #e6e5e6 !important;
+    color: #2b2828 !important;
+    border: 1px solid #8a8b92 !important
 }
 
 .dark .iti .form-control:focus, .form-check-input:focus, .iti .form-control:focus {
@@ -5168,8 +5168,8 @@ input::file-selector-button {
 }
 
 body.dark .form-control.bank, body.dark .form-control.upload-filed {
-    background-color: #25212f !important;
-    color: #fff !important
+    background-color: #e6e5e6 !important;
+    color: #464141 !important
 }
 
 .form-control.bank:focus, .form-control.upload-filed:focus {

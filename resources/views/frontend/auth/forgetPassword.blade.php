@@ -5,27 +5,22 @@
         <div class="main-auth-div">
             <div class="row">
                 <div class="col-md-6 col-xl-5 hide-small-device">
-                    <div class="bg-pattern">
+                    <div class="bg-pattern-x">
                         <div class="bg-content">
-                            <div class="d-flex justify-content-start">
-                                <div class="logo-div">
-                                    <a href="{{ url('/') }}"><img src="{{ image(settings('logo'), 'logo') }}"
-                                            alt="{{ __('Brand Logo') }}"></a>
+                            <!--
+                                <div class="transaction-block">
+                                    <div class="transaction-text">
+                                        <h3 class="mb-6p">{{ __('Hassle free money') }}</h3>
+                                        <h1 class="mb-2p">{{ __('Transactions') }}</h1>
+                                        <h2>{{ __('Right at you fingertips') }}</h2>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="transaction-block">
-                                <div class="transaction-text">
-                                    <h3 class="mb-6p">{{ __('Hassle free money') }}</h3>
-                                    <h1 class="mb-2p">{{ __('Transactions') }}</h1>
-                                    <h2>{{ __('Right at you fingertips') }}</h2>
-                                </div>
-                            </div>
-                            <div class="transaction-image">
-                                <div class="static-image">
-                                    <img class="img img-fluid"
-                                        src="{{ asset('public/frontend/templates/images/login/signup-static-img.svg') }}">
-                                </div>
-                            </div>
+                                <div class="transaction-image">
+                                    <div class="static-image">
+                                        <img class="img img-fluid"
+                                            src="{{ asset('public/frontend/templates/images/login/signup-static-img.svg') }}">
+                                    </div>
+                                </div> -->
                         </div>
                     </div>
                 </div>
@@ -35,11 +30,11 @@
                             <form action="{{ url('forget-password') }}" method="post" id="forget-password-form">
                                 @csrf
                                 <div class="auth-module-header">
-                                    <div class="d-flex align-items-center back-direction forgot-top">
-                                        <a href="{{ url('login') }}" class="d-inline-flex align-items-center back-btn">
-                                            {!! svgIcons('left_angle') !!}
-                                            <span class="ms-1">{{ __('Back') }}</span>
-                                        </a>
+                                    <div class="d-flex justify-content-start">
+                                        <div class="logo-div">
+                                            <a href="{{ url('/') }}"><img src="{{ image(settings('logo'), 'logo') }}"
+                                                    alt="{{ __('Brand Logo') }}"></a>
+                                        </div>
                                     </div>
                                     <p class="mb-0 text-start auth-title mt-20">{{ __('Forgot Password?') }}</p>
                                     <p class="mb-0 auth-text text-start mt-12 leading-24">

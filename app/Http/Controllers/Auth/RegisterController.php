@@ -51,7 +51,6 @@ class RegisterController extends Controller
     {
         $this->validate($request, [
             'first_name'            => 'required|max:30|regex:/^[a-zA-Z\s]*$/',
-            'last_name'             => 'required|max:30|regex:/^[a-zA-Z\s]*$/',
             'email'                 => 'required|email|unique:users,email',
             'password'              => 'required|confirmed',
             'password_confirmation' => 'required',
@@ -61,13 +60,13 @@ class RegisterController extends Controller
             'formInfo' => $request->all(),
             'enabledCaptcha' => settings('has_captcha'),
             'checkMerchantRole' => Role::where([
-                'user_type' => 'User', 
-                'customer_type' => 'merchant', 
+                'user_type' => 'User',
+                'customer_type' => 'merchant',
                 'is_default' => 'Yes'
             ])->first(['id']),
             'checkUserRole' => Role::where([
-                'user_type' => 'User', 
-                'customer_type' => 'user', 
+                'user_type' => 'User',
+                'customer_type' => 'user',
                 'is_default' => 'Yes'
             ])->first(['id'])
         ];
@@ -85,16 +84,14 @@ class RegisterController extends Controller
             if ($request->has_captcha == 'registration' || $request->has_captcha == 'login_and_registration') {
                 $rules = array(
                     'first_name'            => ['required', 'max:30', 'regex:/^[a-zA-Z\s]*$/'],
-                    'last_name'             => ['required', 'max:30', 'regex:/^[a-zA-Z\s]*$/'],
                     'email'                 => ['required', 'email', 'unique:users,email'],
                     'password'              => ['required', 'confirmed'],
                     'password_confirmation' => ['required'],
                     'g-recaptcha-response'  => ['required', 'captcha'],
                 );
-                
+
                 $fieldNames = array(
                     'first_name'            => 'First Name',
-                    'last_name'             => 'Last Name',
                     'email'                 => 'Email',
                     'password'              => 'Password',
                     'password_confirmation' => 'Confirm Password',
@@ -104,14 +101,12 @@ class RegisterController extends Controller
             } else {
                 $rules = array(
                     'first_name'            => ['required', 'max:30', 'regex:/^[a-zA-Z\s]*$/'],
-                    'last_name'             => ['required', 'max:30', 'regex:/^[a-zA-Z\s]*$/'],
                     'email'                 => ['required', 'email', 'unique:users,email'],
                     'password'              => ['required', 'confirmed'],
                     'password_confirmation' => ['required'],
                 );
                 $fieldNames = array(
                     'first_name'            => 'First Name',
-                    'last_name'             => 'Last Name',
                     'email'                 => 'Email',
                     'password'              => 'Password',
                     'password_confirmation' => 'Confirm Password',
@@ -171,7 +166,7 @@ class RegisterController extends Controller
                             return redirect('/login');
                         }
                     }
-                    
+
                     // QR Code
                     QrCode::createUserQrCode($user);
 

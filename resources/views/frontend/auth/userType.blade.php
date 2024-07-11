@@ -49,8 +49,6 @@
                                     value="{{ $formInfo['first_name'] }}">
                                 <input type="hidden" name="email" id="email" class="form-control"
                                     value="{{ $formInfo['email'] }}">
-                                <input type="hidden" name="phone" id="phone" class="form-control"
-                                    value="{{ $formInfo['phone'] }}">
                                 <input type="hidden" name="password" id="password" class="form-control"
                                     value="{{ $formInfo['password'] }}">
                                 <input type="hidden" name="password_confirmation" id="password_confirmation"

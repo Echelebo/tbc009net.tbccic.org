@@ -9,19 +9,19 @@
                     <div class="bg-pattern-x">
                         <div class="bg-content">
                             <!--
-                                        <div class="transaction-block">
-                                            <div class="transaction-text">
-                                                <h3 class="mb-6p">{{ __('Hassle free money') }}</h3>
-                                                <h1 class="mb-2p">{{ __('Transactions') }}</h1>
-                                                <h2>{{ __('Right at you fingertips') }}</h2>
-                                            </div>
-                                        </div>
-                                        <div class="transaction-image">
-                                            <div class="static-image">
-                                                <img class="img img-fluid"
-                                                    src="{{ asset('public/frontend/templates/images/login/signin-static.svg') }}">
-                                            </div>
-                                        </div>-->
+                                                <div class="transaction-block">
+                                                    <div class="transaction-text">
+                                                        <h3 class="mb-6p">{{ __('Hassle free money') }}</h3>
+                                                        <h1 class="mb-2p">{{ __('Transactions') }}</h1>
+                                                        <h2>{{ __('Right at you fingertips') }}</h2>
+                                                    </div>
+                                                </div>
+                                                <div class="transaction-image">
+                                                    <div class="static-image">
+                                                        <img class="img img-fluid"
+                                                            src="{{ asset('public/frontend/templates/images/login/signin-static.svg') }}">
+                                                    </div>
+                                                </div>-->
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                     @include('frontend.layouts.common.alert')
                     <div class="auth-section signin-top d-flex align-items-center">
                         <div class="auth-module">
-                            <div class="d-flex justify-content-start">
+                            <div class="d-flex justify-content-start" style="padding: 5px; padding-top: 10px;">
                                 <div class="logo-div">
                                     <a href="{{ url('/') }}">
                                         <img src="{{ image(settings('logo'), 'logo') }}" alt="{{ __('Brand Logo') }}">

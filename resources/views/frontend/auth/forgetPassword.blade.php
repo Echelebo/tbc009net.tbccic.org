@@ -8,19 +8,19 @@
                     <div class="bg-pattern-x">
                         <div class="bg-content">
                             <!--
-                                    <div class="transaction-block">
-                                        <div class="transaction-text">
-                                            <h3 class="mb-6p">{{ __('Hassle free money') }}</h3>
-                                            <h1 class="mb-2p">{{ __('Transactions') }}</h1>
-                                            <h2>{{ __('Right at you fingertips') }}</h2>
-                                        </div>
-                                    </div>
-                                    <div class="transaction-image">
-                                        <div class="static-image">
-                                            <img class="img img-fluid"
-                                                src="{{ asset('public/frontend/templates/images/login/signup-static-img.svg') }}">
-                                        </div>
-                                    </div> -->
+                                            <div class="transaction-block">
+                                                <div class="transaction-text">
+                                                    <h3 class="mb-6p">{{ __('Hassle free money') }}</h3>
+                                                    <h1 class="mb-2p">{{ __('Transactions') }}</h1>
+                                                    <h2>{{ __('Right at you fingertips') }}</h2>
+                                                </div>
+                                            </div>
+                                            <div class="transaction-image">
+                                                <div class="static-image">
+                                                    <img class="img img-fluid"
+                                                        src="{{ asset('public/frontend/templates/images/login/signup-static-img.svg') }}">
+                                                </div>
+                                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -36,9 +36,10 @@
                                                     alt="{{ __('Brand Logo') }}"></a>
                                         </div>
                                     </div>
-                                    <p class="mb-0 text-center auth-title mt-20"
-                                        style="color: #333333;>{{ __('Forgot Password?') }}</p>
-                                    <p class="mb-0
+                                    <p class="mb-0 text-center auth-title mt-20" style="color: #333333;">
+                                        {{ __('Forgot Password?') }}</p>
+                                    <p
+                                        class="mb-0
                                         auth-text text-start mt-12 leading-24">
                                         {{ __('Please enter your email address associated with your account to receive a verification code.') }}
                                     </p>
